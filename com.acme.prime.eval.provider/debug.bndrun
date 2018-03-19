@@ -1,0 +1,13 @@
+#
+# com.acme.prime.eval.provider DEBUG LAUNCH SPECFICATION 
+#
+
+-include: ~com.acme.prime.eval.provider.bndrun
+
+-runrequires.debug:  \
+	${debug-bundles}
+
+-runtrace: true
+
+-runbundles: \
+	${error;Resolve first}
